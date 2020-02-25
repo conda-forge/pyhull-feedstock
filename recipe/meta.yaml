@@ -27,6 +27,7 @@ requirements:
     - qhull 
   run:
     - python
+    - numpy
     - pip
     - qhull
 
