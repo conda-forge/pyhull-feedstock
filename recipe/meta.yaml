@@ -27,11 +27,14 @@ requirements:
     - qhull 
   run:
     - python
+    - pip
     - qhull
 
 test:
   imports:
     - pyhull
+  commands:
+    - pip check
 
 about:
   home: https://github.com/materialsvirtuallab/pyhull
