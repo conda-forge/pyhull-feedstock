@@ -12,7 +12,7 @@ source:
     - pyhull.patch
 
 build:
-  number: 4
+  number: 5
   script:
     - export LIBRARY_PREFIX=$PREFIX          # [unix]
     - "{{ PYTHON }} -m pip install . -vvv"
